@@ -24,4 +24,8 @@
         width: 50%;
     }
     
+    header .logo{
+        font-family: "Arial Black", Times;
+    }
+
 }
