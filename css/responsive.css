@@ -4,6 +4,10 @@
         flex-direction: column;
     }
 
+    header .logo{
+        font-family: "Arial Black", Times;
+    }
+
     .botao{
         margin-top: 5px;
         width: 300px;
