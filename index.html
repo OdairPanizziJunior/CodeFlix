@@ -36,17 +36,25 @@
         </header>
         <main>
             <div class="filme-principal">
-                <div class="container">
+                <div class="container-main">
                     <h3 class="titulo">JAVASCRIPT</h3>
                     <p class="descricao">Clique agora e entenda porque é importante aprender essa linguagem!
                         Esta é a linguagem mais popular da programação, segundo o estudo do site StackOverFlow.
                     </p>
                     <div class="botoes">
                         <a href="areaplay.html" rel="internal"><button role="button" class="botao"><i class="fa-solid fa-play"></i> PLAY NOW</button></a>
-                        <button role="button" class="botao"><i class="fa-solid fa-plus"></i> INFO</button>
+                        <button role="button" class="botao botao-info"><i class="fa-solid fa-plus"></i> INFO</button>
                     </div>
                 </div>
             </div>
+            <!-- Modal, o alerta ao clicar em +info-->
+            <div id="custom-modal" class="modal">
+                <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web</p>
+                </div>
+            </div>
+  
         </main>
         <div class="carrosel-filmes-destaques">
             <h3><i class="fa-solid fa-fire"></i> DESTAQUES</h3>
@@ -120,6 +128,11 @@
                     <img class="box-filme" src="img/min13.png" alt="" srcset="">
                 </div>
             </div>
+            <!-- gambiarra do bem -->
+            <h3 class="subtitle">
+                <i class="fas fa-hand-point-up"></i>Deslize para o lado       
+            </h3>
+            
         </div>
         <footer>
             <div class="elements-footer">
@@ -132,6 +145,7 @@
                     </a>
             </div>
         </footer>
+        <script src="js/infobutton.js"></script>
         <script src="js/jquery.min.js"></script>
         <script src="js/owl/owl.carousel.min.js"></script>
         <script src="js/setup.js"></script>

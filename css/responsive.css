@@ -10,7 +10,7 @@
 
     .botao{
         margin-top: 5px;
-        width: 300px;
+        width: 150px;
     }
 
     .video-play{
@@ -23,13 +23,20 @@
        margin: auto;
        padding: 15px;
     } */
+
+    
 }
 
 @media screen and (min-width: 1000px){
     .descricao{
         width: 50%;
     }
-    
+
+    .botao{
+        margin-top: 5px;
+        width: 150px;
+    }
+
     header .logo{
         font-family: "Arial Black";
     }

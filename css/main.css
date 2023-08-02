@@ -31,6 +31,10 @@ header .logo{
     font-size: 40px;
 }
 
+header nav{
+   margin-left: 10px;
+}
+
 header nav a{
     text-decoration: none;
     color: var(--color4);
@@ -90,10 +94,14 @@ header nav a:hover{
 }
 
 .container{
+    margin-bottom: 20px;
+}
+
+.container-main{
     margin-left: 20px;
 }
 
-.filme-principal .container{
+.filme-principal .container-main{
     width: 70%;
 }
 
@@ -115,11 +123,20 @@ header nav a:hover{
     display: none;
 }
 
- .item{
+.item{
     width: 60%;
     margin: auto;
  }
 
+.subtitle{
+    margin-top: 20px;
+    text-align: center;
+    color: var(--color4);
+}
+
+.subtitle .fas{
+    margin-right: 10px;
+}
 
 /*VIDEO*/
 .video-play{
@@ -195,3 +212,37 @@ footer a{
 }
 
 
+/* ESTILOS DO MODAL DO ALERTA */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: var(--color2);    
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid var(--color4);
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  .close-btn {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color3);
+  }
+  
+  .close-btn:hover {
+    color: var(--color1);
+  }
+  
