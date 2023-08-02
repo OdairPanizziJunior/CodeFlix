@@ -17,6 +17,12 @@
         width: 300px;
         margin-top: 20px;
     }
+
+    /* .carrosel-filmes-destaques h1{
+       text-align: center;  
+       margin: auto;
+       padding: 15px;
+    } */
 }
 
 @media screen and (min-width: 1000px){

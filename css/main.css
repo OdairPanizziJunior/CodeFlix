@@ -110,6 +110,11 @@ header nav a:hover{
 .carrosel-filmes-destaques{
     margin: 50px 0px 0px 20px;
 }
+
+.owl-theme .owl-dots {
+    display: none;
+}
+
  .item{
     width: 60%;
     margin: auto;
@@ -188,3 +193,5 @@ footer a{
 .fa-brands{
     font-size: 25px;;
 }
+
+
